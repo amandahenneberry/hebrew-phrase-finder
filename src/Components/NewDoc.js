@@ -54,9 +54,9 @@ render(){
                         <li>From the dropdown menu, click 'Copy'</li>
                         <li>Return to THIS PAGE in your web browser!</li>
                         <li>Click in the box below, like you're going to type...</li>
-                        <li>Select 'Edit' your web browser's main Menu Bar</li>
-                        <li>From the dropdown menu, click 'paste'</li>
-                        <li>Once your pasted text loads, click the 'submit' button. You may have to wait a moment for the text to load before hitting 'submit'.</li>
+                        <li>Select 'Edit' from your web browser's main Menu Bar</li>
+                        <li>From the dropdown menu, click 'paste - You may have to wait a moment for the text to load before hitting 'submit''</li>
+                        <li>Once your pasted text loads, click the 'submit' button</li>
 
                     </ol>
                 </p>
