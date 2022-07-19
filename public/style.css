@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+    
+  label {
+    display: block;
+  }
+  
+  form div {
+    margin: 1em;
+    display: inline-block;
+  }
+
+  ol.a{
+    font-weight: lighter;
+  }
+
+  div.doc{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 50x;
+    margin-right: 150px;
+    margin-left: 100px;
+  }
+
+  input.doc{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input.phrase{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .lighter {
+    font-weight: lighter;
+  }
