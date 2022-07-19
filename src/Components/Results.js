@@ -1,8 +1,6 @@
 import React from 'react'
+import { DocPdf } from './DocPdf';
 
-/**
- * COMPONENT
- */
 
 export class Results extends React.Component{
   constructor(props){
@@ -38,9 +36,8 @@ render(){
                 <div className='lighter'>
                     <strong>Results:</strong>
                 <p>Number of times phrase appeared: <strong>{this.state.phraseCount}</strong></p>
-                <p>Pages where phrase appeared: <div style={{color:'red'}}>under development</div></p>
-                <p>Download a new PDF with the phrase highlighted on each page: <div style={{color:'red'}}>under development</div></p>
-                
+                {/* <p>Download a new PDF with the phrase highlighted on each page: <div style={{color:'red'}}>under development</div></p> */}
+                <DocPdf doc={this.props.doc} phrase={this.props.phrase}/>
             </div>
             </div>
         ):(

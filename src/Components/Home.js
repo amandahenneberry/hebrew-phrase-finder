@@ -1,5 +1,6 @@
 import React from 'react';
 import NewDoc from './NewDoc';
+// import DocInput from './DocInput';
 
 class Home extends React.Component{
     constructor(props) {
@@ -36,12 +37,16 @@ class Home extends React.Component{
             <div>
                 <div id="authorization">
                     <h1>{this.state.authorized ? '' : 'Enter the Password'}</h1>
-                    <h1>{this.state.authorized ? 
+                    <div>{this.state.authorized ? 
                     (
                         <NewDoc />
                     ) : (
-                        <div>{login}</div>
-                    )}</h1>
+                        <div>
+                          {login}
+                          {/* <DocInput /> */}
+                        </div>
+                        
+                    )}</div>
                 </div>
             </div>
         );
